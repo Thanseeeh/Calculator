@@ -19,7 +19,7 @@
     font-size: 20px;
     font-weight: 400;
 }
-.screen {
+#screen {
     width: 96%;
     margin-left: 1.5%;
     height: 200px;
@@ -27,6 +27,7 @@
     border: none;
     border-radius: 8px;
     pointer-events: none;
+    position: relative;
 }
 .buttons {
     padding-top: 12px;
@@ -34,6 +35,16 @@
 .row {
     margin-bottom: 1px;
     margin-left: 15px;
+}
+.clear-btn {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 8px;
+    width: 50px;
+    height: 30px;
+    background: #ffffffde;
+    font-size: 20px;
+    border-radius: 5px;
 }
 .btn {
     width: 120px;
@@ -43,4 +54,8 @@
     border: none;
     border-radius: 5px;
     font-size: 22px;
+}
+input {
+    color: white;
+    font-size: 30px;
 }
